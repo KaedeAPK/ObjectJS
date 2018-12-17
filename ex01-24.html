@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>array</title>
+    <script>
+       function reflect(value) {
+           return value;
+       }
+
+       var items = [];
+       var obj = {};
+       
+       // items(Array) -> obj too
+       console.log(items instanceof Array);
+       console.log(items instanceof Object);//
+       console.log(items instanceof Function);
+       // obj(Object) -> only obj
+       console.log(obj instanceof Array);
+       console.log(obj instanceof Object);
+       console.log(obj instanceof Function);
+       // ref(Func) -> obj too
+       console.log(reflect instanceof Array);
+       console.log(reflect instanceof Object);//
+       console.log(reflect instanceof Function);
+       
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
